@@ -18,7 +18,4 @@ public abstract class BaseView {
         PageFactory.initElements(driver, this);
     }
 
-    public BaseView() {
-
-    }
 }

@@ -2,7 +2,6 @@ package ru.geekbrains.pages;
 
 import org.openqa.selenium.WebDriver;
 import ru.geekbrains.base.BaseView;
-import ru.geekbrains.views.MenuBar;
 import ru.geekbrains.views.NavigationBar;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
