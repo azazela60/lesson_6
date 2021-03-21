@@ -7,7 +7,7 @@ import ru.geekbrains.base.BaseView;
 
 public class LoginPage extends BaseView {
 
-    @FindBy(xpath = ".//*[@id=\\\"drop-login\\\"]")
+    @FindBy(xpath = ".//*[@id='drop-login']")
     private WebElement buttonSignIn;
 
     @FindBy(css = "input[id='usrlog2']")

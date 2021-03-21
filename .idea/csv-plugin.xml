@@ -94,6 +94,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\main\java\ru\geekbrains\pages\LoginPage.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\java\ru\geekbrains\pages\Page.java">
           <value>
             <Attribute>
@@ -165,6 +172,13 @@
           </value>
         </entry>
         <entry key="\src\test\java\ru\geekbrains\features\login\PositiveLoginTest.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\test\java\ru\geekbrains\features\navigation\NavigationTest.java">
           <value>
             <Attribute>
               <option name="separator" value=";" />

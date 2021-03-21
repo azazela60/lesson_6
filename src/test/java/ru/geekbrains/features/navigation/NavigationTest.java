@@ -6,13 +6,16 @@ import ru.geekbrains.base.BaseUITest;
 import ru.geekbrains.common.Configuration;
 import ru.geekbrains.enums.NavigationBarTabs;
 import ru.geekbrains.pages.LoginPage;
+import ru.geekbrains.views.NavigationBar;
 
 public class NavigationTest extends BaseUITest  {
+
+
 
     @ParameterizedTest
     @MethodSource("navigationTabProvider")
     public void checkMainNavigationTabsTest(NavigationBarTabs barTab) {
-        new LoginPage(driver)
+         new LoginPage(driver)
                 .authoriseScenario(Configuration.LOGIN, Configuration.PASSWORD)
                 .getPageNavigation()
                 .checkTabVisibility(barTab);

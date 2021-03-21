@@ -5,8 +5,8 @@ import ru.geekbrains.base.SubMenuButtons;
 
 public enum ExpenseSubMenuButtons implements SubMenuButtons {
 
-    MY_BLOG("//*[@id=\"body\"]/div[3]/div/ul[2]/li[1]/a' and text()='Мой дневник']"),
-    NEW_ENTRY("//*[@id=\"body\"]/div[3]/div/ul[2]/li[2]/a' and text()='Новая запись']");
+    MY_BLOG("//body[@id='body']/div[2]/div/ul[2]/li/a/span"),
+    NEW_ENTRY("//body[@id='body']/div[2]/div/ul[2]/li[2]/a/span");
 
 
 
